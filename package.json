@@ -1,0 +1,17 @@
+{
+  "name": "urban-ai-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd explorer && mvn spring-boot:run",
+    "frontend": "cd frontend && npm start",
+    "install:all": "cd explorer && mvn dependency:resolve && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^8.2.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  }
+}

@@ -1,0 +1,14 @@
+server.port=${PORT:8080}
+spring.application.name=urban-ai-explorer
+spring.main.web-application-type=servlet
+
+# Real Claude AI Configuration - Replace with your actual API key
+spring.ai.anthropic.api-key=your-anthropic-api-key-here
+spring.ai.anthropic.chat.options.model=claude-3-5-sonnet-20241022
+spring.ai.anthropic.chat.options.max-tokens=500
+spring.ai.anthropic.chat.options.temperature=0.7
+
+# CORS for React
+spring.web.cors.allowed-origins=http://localhost:3000,https://*.netlify.app
+spring.web.cors.allowed-methods=GET,POST,PUT,DELETE,OPTIONS
+spring.web.cors.allowed-headers=*

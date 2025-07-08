@@ -1,0 +1,29 @@
+# Backend
+explorer/target/
+explorer/.mvn/
+explorer/mvnw
+explorer/mvnw.cmd
+explorer/src/main/resources/application.properties
+
+urban-ai-explorer/node_modules/
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API Keys and Secrets
+*.env
+.env.*
