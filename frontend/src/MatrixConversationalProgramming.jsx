@@ -4,13 +4,15 @@ function App() {
     const [message, setMessage] = useState('');
     const [conversation, setConversation] = useState([]);
     const [loading, setLoading] = useState(false);
+    const API_BASE_URL = 'urban-ai-explorer-production.up.railway.app';
+
 
     const sendMessage = async () => {
         if (!message.trim()) return;
 
         setLoading(true);
         try {
-            const response = await fetch('/api/conversation/urban-intent', {
+            const response = await fetch(`${API_BASE_URL}/api/conversation/urban-intent`, {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({message: message})
