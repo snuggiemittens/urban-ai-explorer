@@ -4,7 +4,7 @@ function App() {
     const [message, setMessage] = useState('');
     const [conversation, setConversation] = useState([]);
     const [loading, setLoading] = useState(false);
-    const API_BASE_URL = 'urban-ai-explorer-production.up.railway.app';
+    const API_BASE_URL = 'https://urban-ai-explorer-production.up.railway.app';
 
 
     const sendMessage = async () => {
