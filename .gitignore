@@ -26,4 +26,5 @@ Thumbs.db
 
 # API Keys and Secrets
 *.env
-.env.*
+.env.*node_modules/
+*/node_modules/

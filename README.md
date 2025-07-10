@@ -1,6 +1,6 @@
 # Urban AI Explorer - Conversational Programming Platform
 
-Revolutionary AI-native development platform where natural language becomes the programming interface.
+context driven AI-native development platform where natural language becomes the programming interface for specific domains.
 
 ## Quick Start
 
